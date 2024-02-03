@@ -3,6 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Matheus Correa",
+  "description": "React app boilerplate",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuscorrea70/app-vite-react-boilerplate"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,8 +19,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tanstack/react-query": "~5.18.1",
-    "axios": "~1.6.7",
     "react": "~18.2.0",
     "react-dom": "~18.2.0"
   },
